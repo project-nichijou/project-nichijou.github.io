@@ -1,8 +1,8 @@
-baseURL: https://example.com/
+baseURL: https://project-nichijou.github.io/
 theme: pure
-title: Pure theme for Hugo
+title: Project Nichijou
 copyright: CC BY 4.0 CN
-defaultContentLanguage: en  # en/zh/...
+defaultContentLanguage: zh  # en/zh/...
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
 paginate: 7
@@ -65,7 +65,7 @@ menu:
 
 
 params:
-  since: 2017
+  since: 2021
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: true
   copyright_link: http://creativecommons.org/licenses/by/4.0/deed.zh
@@ -82,7 +82,7 @@ params:
     max: 20
   # Allows you to specify an override stylesheet
   # put custom.css in $hugo_root_dir/static/
-  # customCSS: css/custom.css
+  customCSS: css/custom.css
 
   menuIcons:
     enable: true  # 是否启用导航菜单图标
@@ -98,17 +98,17 @@ params:
   # profile
   profile:
     enabled: true # Whether to show profile bar
-    avatar: avatar.png
+    avatar: avatar.jpg
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-    author: xiaoheiAh
-    author_title: author title
-    author_description: Good Good Study, Day Day Up~
+    author: Project Nichijou
+    author_title: gyro永不抽风
+    author_description: 全功能弹幕播放器（咕...
     location: Shanghai, China
-    follow: https://github.com/xiaoheiAh
+    follow: https://github.com/project-nichijou
     # Social Links
     social:
       links:
-        github: https://github.com/xiaoheiAh
+        github: https://github.com/project-nichijou
         # weibo: http://weibo.com/{yourid}
         # twitter: https://twitter.com/
         # facebook: /
@@ -121,9 +121,9 @@ params:
       width: 40
       height: 40
       url: favicon.ico
-    title: Hugo # 页面title
+    title: Project Nichijou # 页面title
     favicon: favicon.ico
-    board: <p>enjoy~</p> # 公告牌
+    board: <p>全功能弹幕播放器（咕...（有在写代码了，别骂了别骂了</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
@@ -155,20 +155,20 @@ params:
 
   # Donate
   donate:
-    enable: false
+    enable: true
     # 微信打赏
     wechatpay:
-      qrcode: donate/wechatpayimg.png
+      qrcode: donate/wechatpay.jpg
       title: 微信支付
     # 支付宝打赏
     alipay:
-      qrcode: donate/alipayimg.png
+      qrcode: donate/alipay.jpg
       title: 支付宝
 
   # PV
   pv:
     busuanzi:
-      enable: false # 不蒜子统计
+      enable: true # 不蒜子统计
     leancloud:
       enable: false # leancloud统计
       app_id: # leancloud <AppID>
@@ -182,7 +182,7 @@ params:
 
   # config
   config:
-    skin: theme-black # theme color default is white. other type [theme-black,theme-blue,theme-green,theme-purple]
+    skin: theme-green # theme color default is white. other type [theme-black,theme-blue,theme-green,theme-purple]
     layout: main-center # main-left main-center main-right
     excerpt_link: Read More
     toc: true

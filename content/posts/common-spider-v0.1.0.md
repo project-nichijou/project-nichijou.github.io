@@ -3,7 +3,7 @@ title: "Common Spider v0.1.0 发布"
 date: 2021-07-17T15:54:51+08:00
 draft: false
 ---
-对之前的`bangumi-spider`进行了重构，根据之前制定的[内部格式](https://github.com/project-nichijou/intro/blob/master/doc.md)对`Scrapy`进行二次开发，抽象出了这个内部爬虫框架。
+对之前的`bangumi-spider`进行了重构，根据之前制定的[内部格式](https://project-nichijou.github.io/docs/#/./server/anime-database/spider)对`Scrapy`进行二次开发，抽象出了这个内部爬虫框架。
 
 `README`:
 
@@ -25,7 +25,7 @@ draft: false
 
 # 介绍
 
-本项目是[Project Nichijou](https://github.com/project-nichijou/intro)的一个子项目。根据[内部规范](https://github.com/project-nichijou/intro/blob/master/doc.md)实现的基于[Scrapy](https://scrapy.org/)二次开发的爬虫框架。
+本项目是[Project Nichijou](https://project-nichijou.github.io/docs)的一个子项目。根据[内部规范](https://project-nichijou.github.io/docs/#/./server/anime-database/spider)实现的基于[Scrapy](https://scrapy.org/)二次开发的爬虫框架。
 
 # 结构
 
